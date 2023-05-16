@@ -1,0 +1,160 @@
+[
+    {
+        "id": 0,
+        "barrio": "Malvin",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "1.jpg",
+        "moneda": "U$S",
+        "importe": 390000,
+        "operacion": "venta"
+    },  
+    {
+        "id": 1,
+        "barrio": "Pocitos",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 4,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "2.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 2,
+        "barrio": "Pocitos",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "3.jpg",
+        "moneda": "$",
+        "importe": 70000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 3,
+        "barrio": "Malvin",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "4.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 4,
+        "barrio": "Malvin",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "5.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 5,
+        "barrio": "Malvin",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "6.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 6,
+        "barrio": "Malvin",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "7.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 7,
+        "barrio": "Pocitos",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "8.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 8,
+        "barrio": "Pocitos",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "8.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 9,
+        "barrio": "Pocitos",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "8.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 10,
+        "barrio": "Pocitos",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "8.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    },
+    {
+        "id": 11,
+        "barrio": "Pocitos",
+        "tipoinmueble": "Apartamento",
+        "dormitorios": 3,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "8.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    }
+    ,
+    {
+        "id": 12,
+        "barrio": "Buceo",
+        "tipoinmueble": "Casa",
+        "dormitorios": 5,
+        "baños": 2,
+        "departamento": "Montevideo",
+        "imagen": "8.jpg",
+        "moneda": "$",
+        "importe": 40000,
+        "operacion": "alquiler"
+    }
+
+]
