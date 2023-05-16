@@ -40,6 +40,18 @@ main {
 
 }
 
+h6 {
+    Color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+}
+
+.btnFav {
+    width: 100%;
+}
+
 .buscador {
     padding-top: 100px;
     display: flex;
@@ -79,7 +91,7 @@ img {
 
 .propiedad {
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
     background-color: antiquewhite;
 
 }
@@ -93,6 +105,7 @@ img {
     height: auto;
     margin-top: 70px;
     display: flex;
+    border-radius: 10px;
 }
 
 table td {

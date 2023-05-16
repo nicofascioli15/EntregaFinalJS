@@ -11,19 +11,15 @@ const verFavoritos = () => {
         <td>  <img src=".././assets/img/propiedades/${favorito.imagen}" alt="">  </td>
         <th>Operacion</th>
         <td>${favorito.operacion}</td>
-        <th>Departamento</th>
-        <td>${favorito.departamento}</td>
+        <th>Barrio</th>
+        <td>${favorito.barrio}</td>
         <th>Dormitorios</th>
         <td>${favorito.dormitorios}</td>
         <th>Baños</th>
         <td>${favorito.baños}</td>
         <th>Valor</th>
         <td>${favorito.moneda} ${favorito.importe}</td>
-        <th>X</th>
-
-
-
-       
+        <th><button type="submit" class="btn btn-danger" id="${favorito.id}">Eliminar</button></th>
         <tr>
         </table>`
 
@@ -34,3 +30,5 @@ const verFavoritos = () => {
  } 
 
  verFavoritos()
+
+ 
