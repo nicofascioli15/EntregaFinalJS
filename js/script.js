@@ -52,7 +52,6 @@ const agregarFavoritos = () => {
         })
         const favGuardados = localStorage.setItem("favoritos",JSON.stringify(favoritos))
         Toastify({
-
             text: "Agregado a favoritos",
             duration: 2000
             }).showToast();
@@ -62,6 +61,8 @@ const agregarFavoritos = () => {
 
 
   }
+
+
 
 
 llamadaPropiedadesCargadas()

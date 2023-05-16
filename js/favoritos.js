@@ -6,7 +6,7 @@ const verFavoritos = () => {
     favoritosRecuperado.forEach((favorito) => {
         const tarjetaFavorito = document.createElement("section")
         tarjetaFavorito.className = ("tarjetaFavorito")
-        tarjetaFavorito.innerHTML = `<table>
+        tarjetaFavorito.innerHTML += `<table>
         <tr>
         <td>  <img src=".././assets/img/propiedades/${favorito.imagen}" alt="">  </td>
         <th>Operacion</th>
@@ -30,5 +30,3 @@ const verFavoritos = () => {
  } 
 
  verFavoritos()
-
- 
