@@ -1,10 +1,12 @@
 const propiedades = JSON.parse(localStorage.getItem("propiedades"))||[]
-const favoritos = JSON.parse(localStorage.getItem("favoritos"))||[]
+const favoritos = []
+
 
 const llamadaPropiedadesCargadas = async() => {
     try{
-        const resp = await fetch (`./js/propiedades.JSON`)
+        const resp = await fetch (`./js/propiedades.json`)
         const propiedades = await resp.json()
+        console.log(propiedades)
         const propiedadesGuardadas = localStorage.setItem("propiedades", JSON.stringify(propiedades))
     }catch(error){
         console.log ("volver a intentar")
@@ -17,7 +19,7 @@ const crearPropiedad = () => {
         const contenedorPropiedades = document.querySelector("#muestraPropiedades")
         const tarjetaPropiedad = document.createElement("article")
         tarjetaPropiedad.className = "propiedad"
-        tarjetaPropiedad.innerHTML = `<img src=".././assets/img/propiedades/${propiedad.imagen}" alt="">
+        tarjetaPropiedad.innerHTML = `<img src="../.././assets/img/propiedades/${propiedad.imagen}" alt="">
         <h6>${propiedad.operacion}</h6>
         <h2>${propiedad.barrio}</h2>
         <h5>${propiedad.departamento}</h5>
@@ -55,8 +57,7 @@ const agregarFavoritos = () => {
             duration: 2000
             }).showToast();
     })
-  
-  
+
     })
 
 
@@ -66,6 +67,7 @@ const agregarFavoritos = () => {
 llamadaPropiedadesCargadas()
 crearPropiedad()
 agregarFavoritos()
+
 
 
 

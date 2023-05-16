@@ -9,7 +9,7 @@
         "imagen": "1.jpg",
         "moneda": "U$S",
         "importe": 390000,
-        "operacion": "venta"
+        "operacion": "Venta"
     },  
     {
         "id": 1,
@@ -21,7 +21,7 @@
         "imagen": "2.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Alquiler"
     },
     {
         "id": 2,
@@ -33,7 +33,7 @@
         "imagen": "3.jpg",
         "moneda": "$",
         "importe": 70000,
-        "operacion": "alquiler"
+        "operacion": "Alquiler"
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
         "imagen": "4.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Alquiler"
     },
     {
         "id": 4,
@@ -57,7 +57,7 @@
         "imagen": "5.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Venta"
     },
     {
         "id": 5,
@@ -69,7 +69,7 @@
         "imagen": "6.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Alquiler"
     },
     {
         "id": 6,
@@ -81,7 +81,7 @@
         "imagen": "7.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Venta"
     },
     {
         "id": 7,
@@ -93,7 +93,7 @@
         "imagen": "8.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Alquiler"
     },
     {
         "id": 8,
@@ -102,10 +102,10 @@
         "dormitorios": 3,
         "baños": 2,
         "departamento": "Montevideo",
-        "imagen": "8.jpg",
+        "imagen": "9.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Venta"
     },
     {
         "id": 9,
@@ -114,10 +114,10 @@
         "dormitorios": 3,
         "baños": 2,
         "departamento": "Montevideo",
-        "imagen": "8.jpg",
+        "imagen": "10.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Alquiler"
     },
     {
         "id": 10,
@@ -126,10 +126,10 @@
         "dormitorios": 3,
         "baños": 2,
         "departamento": "Montevideo",
-        "imagen": "8.jpg",
+        "imagen": "11.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Venta"
     },
     {
         "id": 11,
@@ -138,10 +138,10 @@
         "dormitorios": 3,
         "baños": 2,
         "departamento": "Montevideo",
-        "imagen": "8.jpg",
+        "imagen": "12.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Alquiler"
     }
     ,
     {
@@ -151,10 +151,10 @@
         "dormitorios": 5,
         "baños": 2,
         "departamento": "Montevideo",
-        "imagen": "8.jpg",
+        "imagen": "13.jpg",
         "moneda": "$",
         "importe": 40000,
-        "operacion": "alquiler"
+        "operacion": "Venta"
     }
 
 ]
