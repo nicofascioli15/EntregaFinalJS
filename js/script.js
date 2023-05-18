@@ -1,6 +1,10 @@
 const propiedades = JSON.parse(localStorage.getItem("propiedades"))||[]
 const favoritos = []
 
+const url  = "./js/propiedades.json"
+
+
+
 
 const llamadaPropiedadesCargadas = async() => {
     try{
